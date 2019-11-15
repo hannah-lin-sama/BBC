@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="BBC"
+  id="myeclipse.1559994353613"
+  context-root="/BBC"
+  j2ee-spec="5.0"
+  archive="BBC.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

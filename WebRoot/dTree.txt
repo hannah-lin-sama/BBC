@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<div align="center">
+	<script type="text/javascript">
+		d = new dTree('d');
+		d = new dTree('d');
+		d.add(0,-1,'后台管理');
+		d.add(1,0,'用户管理','');
+		d.add(8,1,'查看用户','userlook02.jsp',"","iFrame");
+		d.add(7,1,'黑名单管理','');
+		d.add(5,7,'添加黑名单','busermodadd.jsp',"","iFrame");
+		d.add(6,7,'移除黑名单','buserdel.jsp',"","iFrame");
+		d.add(2,0,'帖子管理','');
+		d.add(11,2,'查看帖子','postslook02.jsp',"","iFrame");
+		d.add(10,2,'删除帖子','postsdel.jsp',"","iFrame");		
+		document.write(d);
+	</script>
+</div>
